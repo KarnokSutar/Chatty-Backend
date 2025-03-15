@@ -54,7 +54,7 @@ const server =app.listen(port, () => {
 
 const io = socket(server, {
     cors: {
-      origin: "https://chattykks.vercel.app",
+      origin: "https://kkschatty.vercel.app",
       credentials: true,
     },
   });
